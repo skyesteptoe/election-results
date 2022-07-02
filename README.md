@@ -49,7 +49,8 @@ Summarized below are the findings from the analysis:
  - The winner of the election was Diana DeGette. 
   - Diana DeGette received 73.8% of the vote and 272,892 votes.
 
-##Election Audit Summary:
+##Election Audit Summary
+
 The script developed for this audit can readily be applied to any .csv file with basic voter details such as was included in this file: unique voter identifier, county name, and candidate selected. If basic summary details are needed and the basic details (i.e., variables) are the same, the script can be directly; the file location would need to be updated (.csv file) as well as a new .txt file written for summary output.
 
 This script could easily be adapted to be used for other elections. County could be replaced with state or municipality, for example. For readability, variable names could be modified to reflect the voting jurisdiction more clearly but the calculations and logic would not need to change. County could also be replaced with voting party preference. You could then determine of those voting, the percentage of individuals voting for a particular political party by county and for a particular candidate. If you simply wanted to look at the percentage and number of voters participating that claimed a party preference, this data could take the place of the candidate name field and the same code could be applied simply modifying the variable naming schema and the selected column from the .csv output.
