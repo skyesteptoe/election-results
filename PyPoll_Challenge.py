@@ -6,9 +6,9 @@ import csv
 import os
 
 # Add a variable to load a file from a path.
-file_to_load = 'C:/Users/sstewart4/OneDrive - University of California, Davis/Desktop/Bootcamp/W3_Python/Resources/election_results.csv'
+file_to_load = 'election_results.csv'
 # Add a variable to save the file to a path.
-file_to_save = 'C:/Users/sstewart4/OneDrive - University of California, Davis/Desktop/Bootcamp/W3_Python/Analysis/election_results.txt'
+file_to_save = 'election_results.txt'
 
 # Initialize a total vote counter.
 total_votes = 0
