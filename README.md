@@ -1,10 +1,10 @@
 # Election_Analysis_and_Audit
 
-##Project Overview and Purpose: Election Audit 
+## Project Overview and Purpose: Election Audit 
 
 A Colorado Board of Elections staff member, Tom, has asked us to complete an election audit of a recent local congressional election. The purpose of this analysis is  two-fold: 1) to summarize the outcomes of the recent election and 2) to develop code that can be automated and leveraged for future election analysis and audits.
 
-##Election Audit Overview of Methods
+## Election Audit Overview of Methods
 
 To begin the analysis, a .csv file was provided that included the following for each vote cast: voter identifaction number, voter's county, and voter's candidate choice (i.e., name). Python was used to read the datafile and Python code was written to run the analysis using Visual Studio Code as the programming platform. The primary goal of the analysis was to summarize outcomes of the recent election with a secondary goal of writing code that could be applied to future election analysis and audits. 
 
@@ -15,11 +15,13 @@ The following steps were taken to obtain results for the Board of Elections Comm
 4. Calculated the percentage of votes that each candidate won.
 5. Determined the winner of the election based on popular vote.
 
-###Resources Used for Election Audit:
+### Resources Used for Election Audit:
 - Data Source: election_results.csv
 - Software: Python 3.10.1, Visual Studio Code 1.68.1
   
-## Election Audit Results
+## Election Audit Results:
+
+![image](Results_shot.png)
 
 Summarized below are the findings from the analysis: 
 - There were 369,711 total votes cast in this election.
